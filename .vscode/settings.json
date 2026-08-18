@@ -1,0 +1,19 @@
+{
+  "C_Cpp.intelliSenseEngine": "Disabled",
+  "C_Cpp.clang_format_path": "/usr/bin/clang-format",
+  "clang-format.executable": "/usr/bin/clang-format",
+  "clangd.path": "/usr/bin/clangd",
+  "clangd.arguments": [
+    "--compile-commands-dir=${workspaceFolder}/build",
+    "--background-index",
+    "--clang-tidy",
+    "--header-insertion=never",
+    "--completion-style=detailed"
+  ],
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  }
+}

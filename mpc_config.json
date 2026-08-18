@@ -1,0 +1,16 @@
+{
+  "N": 15,
+  "dt": 0.1,
+  "Lf": 2.67,
+  "ref_v_mph": 90.0,
+  "cost": {
+    "cte": 22.0,
+    "epsi": 20.0,
+    "v": 2.0,
+    "steering": 20000.0,
+    "steering_quartic": 400.0,
+    "throttle": 1.0,
+    "steering_slope": 30.0,
+    "throttle_slope": 1.0
+  }
+}
