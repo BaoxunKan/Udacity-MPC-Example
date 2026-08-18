@@ -26,9 +26,9 @@ cmake --build build -j$(nproc)
 
 ## 运行效果
 
-湖区赛道上的 MPC 跟踪录屏见 [`result/mpc_result.mkv`](./result/mpc_result.mkv)：
+湖区赛道上的 MPC 跟踪录屏见 [`result/mpc_result.mp4`](./result/mpc_result.mp4)：
 
-<video src="./result/mpc_result.mkv" controls width="720"></video>
+<video src="./result/mpc_result.mp4" controls width="720"></video>
 
 若 Markdown 预览无法播放，用系统播放器直接打开该文件即可。
 
